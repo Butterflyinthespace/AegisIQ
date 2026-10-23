@@ -1,0 +1,38 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Local development files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local evidence and generated reports
+uploads/
+evidence/
+private/
+reports/
+*_assessment_report.json
+*_review_matrix.csv
+AegisIQ_OBG_Complete_Simulated_Evidence_Pack.zip
+
+# Temporary files
+*.tmp
+~$*
+frameworks/ecc_controls_draft.json
+frameworks/ecc_controls_structured.json
+frameworks/ECC-2-2024.pdf
