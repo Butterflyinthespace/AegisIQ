@@ -1,0 +1,58 @@
+[
+  {
+    "id": "OBS-001",
+    "title": "Former employee account remains enabled",
+    "subject": "EMP-110",
+    "ecc": "2-2-3",
+    "sources": [
+      "06_OBG_HR_Roster.csv",
+      "07_OBG_Access_and_Assets.xlsx",
+      "10_Security_Events.csv"
+    ],
+    "summary": "The fictional HR roster lists EMP-110 as terminated, while access evidence indicates an account remains enabled and a later successful login was recorded."
+  },
+  {
+    "id": "OBS-002",
+    "title": "Expired contractor account remains enabled",
+    "subject": "EMP-111",
+    "ecc": "2-2-3",
+    "sources": [
+      "06_OBG_HR_Roster.csv",
+      "07_OBG_Access_and_Assets.xlsx",
+      "10_Security_Events.csv"
+    ],
+    "summary": "The fictional roster shows the agency contract ended, but the account remained active and a subsequent login event appears in the security log."
+  },
+  {
+    "id": "OBS-003",
+    "title": "Privileged remote account lacks MFA",
+    "subject": "k.alzahrani-admin",
+    "ecc": "2-2-3",
+    "sources": [
+      "08_MFA_and_Privileged_Access.csv",
+      "10_Security_Events.csv"
+    ],
+    "summary": "The privileged account is marked for remote access without enforced multi-factor authentication; a related event appears in the simulated security log."
+  },
+  {
+    "id": "OBS-004",
+    "title": "Clinical monitoring source not integrated",
+    "subject": "Fetal-Monitor-Workstation",
+    "ecc": "2-12-3",
+    "sources": [
+      "07_OBG_Access_and_Assets.xlsx",
+      "11_SIEM_Configuration.json"
+    ],
+    "summary": "The simulated SIEM configuration marks the fetal monitoring workstation source disabled, creating a potential monitoring coverage gap."
+  },
+  {
+    "id": "OBS-005",
+    "title": "Backup restoration test unsuccessful",
+    "subject": "fetal-monitor-archive",
+    "ecc": "2-9-3",
+    "sources": [
+      "09_Backup_and_Recovery.xlsx"
+    ],
+    "summary": "The simulated backup and recovery records indicate an unsuccessful recovery test requiring investigation and retesting."
+  }
+]

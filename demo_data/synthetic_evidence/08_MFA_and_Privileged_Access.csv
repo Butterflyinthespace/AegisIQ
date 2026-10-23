@@ -1,0 +1,6 @@
+﻿Employee ID,Account,Privileged,Remote access,MFA enforced,Last verified,Reviewer
+EMP-101,l.almansour,No,Yes,Yes,2026-10-07,IAM Team
+EMP-102,o.alharbi,No,No,N/A,2026-10-07,IAM Team
+EMP-109,k.alzahrani-admin,Yes,Yes,No,2026-10-07,IAM Team
+EMP-109,k.alzahrani,No,No,N/A,2026-10-07,IAM Team
+EMP-110,r.alnasser,No,Yes,Yes,2026-10-07,IAM Team

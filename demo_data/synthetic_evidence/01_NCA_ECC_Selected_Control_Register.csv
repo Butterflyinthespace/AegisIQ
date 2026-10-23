@@ -1,0 +1,7 @@
+﻿ECC-2:2024 Subdomain ID,Official subdomain name,"Assessment focus (analyst summary, not verbatim regulatory text)",Expected evidence examples
+1-3,Cybersecurity Policies and Procedures,"Documented, approved, implemented and reviewed cybersecurity policies/procedures",Policy approval; communication; review log
+2-1,Asset Management,Asset inventory and approved management requirements,Inventory; owners; classification
+2-2,Identity and Access Management,Documented and implemented identity/access requirements including privileged access and periodic reviews,Policy; account export; access review; MFA evidence
+2-9,Backup and Recovery Management,Defined and implemented backup and recovery safeguards,Backup configuration; job logs; restoration tests
+2-12,Cybersecurity Event Logs and Monitoring Management,"Logging, monitoring and review safeguards",SIEM export; log source list; alert triage
+2-13,Cybersecurity Incident and Threat Management,Incident and threat response management,Response plan; ticket; timeline

@@ -1,0 +1,12 @@
+﻿Employee ID,Fictional name,Job title,Expected role,HR status,Start or end date
+EMP-101,Dr. Lina Al-Mansour,Consultant Obstetrician,OBG-Consultant,Active,2025-03-01
+EMP-102,Dr. Omar Al-Harbi,Consultant Gynecologist,OBG-Consultant,Active,2025-06-15
+EMP-103,Dr. Sara Al-Qahtani,Senior Registrar,OBG-Registrar,Active,2026-01-08
+EMP-104,Dr. Yara Al-Salem,Resident Physician,OBG-Resident,Active,2026-07-01
+EMP-105,Noura Al-Fahad,Charge Nurse,OBG-Nurse,Active,2024-11-12
+EMP-106,Maha Al-Otaibi,Staff Nurse,OBG-Nurse,Active,2025-12-04
+EMP-107,Huda Al-Shammari,Unit Coordinator,OBG-UnitAdmin,Active,2026-02-18
+EMP-108,Faisal Al-Rashid,Medical Records Clerk,OBG-Records,Active,2025-08-20
+EMP-109,Khalid Al-Zahrani,Clinical Applications Administrator,IT-ClinicalAdmin,Active,2024-04-10
+EMP-110,Dr. Rawan Al-Nasser,Former Resident Physician,OBG-Resident,Terminated,2026-08-30
+EMP-111,Amal Al-Hassan,Temporary Agency Nurse,OBG-Nurse,Contract ended,2026-09-30

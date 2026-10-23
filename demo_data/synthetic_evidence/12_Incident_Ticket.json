@@ -1,0 +1,31 @@
+{
+  "ticket": "INC-2026-044",
+  "classification": "Suspected unauthorized clinical record access",
+  "opened": "2026-10-07T09:30:00+03:00",
+  "affected_user": "EMP-107",
+  "source_event": "EV-1002",
+  "patient_identifiers_included": false,
+  "timeline": [
+    {
+      "time": "2026-10-07T09:17:00+03:00",
+      "action": "Alert generated"
+    },
+    {
+      "time": "2026-10-07T09:30:00+03:00",
+      "action": "Ticket opened"
+    },
+    {
+      "time": "2026-10-07T14:15:00+03:00",
+      "action": "Clinical owner notified"
+    },
+    {
+      "time": "2026-10-08T11:00:00+03:00",
+      "action": "Permission removal requested"
+    }
+  ],
+  "status": "Open",
+  "containment_confirmed": false,
+  "root_cause": "Excess role entitlement suspected; investigation ongoing",
+  "clinical_safety_review": "Pending",
+  "owner": "SOC Lead"
+}

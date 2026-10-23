@@ -1,0 +1,31 @@
+{
+  "system": "Fictional-SIEM",
+  "export_date": "2026-10-21",
+  "sources": [
+    {
+      "name": "OBG-EHR",
+      "enabled": true,
+      "last_event": "2026-10-21T16:01:00+03:00"
+    },
+    {
+      "name": "Identity-Provider",
+      "enabled": true,
+      "last_event": "2026-10-21T15:55:00+03:00"
+    },
+    {
+      "name": "Fetal-Monitor-Workstation",
+      "enabled": false,
+      "reason": "Agent installation deferred"
+    },
+    {
+      "name": "Privileged-Access-Gateway",
+      "enabled": true,
+      "last_event": "2026-10-21T15:42:00+03:00"
+    }
+  ],
+  "alerting": {
+    "high_severity_route": "SOC queue",
+    "review_sla_hours": 4
+  },
+  "retention_days": 90
+}

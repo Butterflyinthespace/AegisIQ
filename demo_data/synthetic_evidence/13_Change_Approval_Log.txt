@@ -1,0 +1,9 @@
+NOURA VALLEY HOSPITAL — SIMULATED CHANGE RECORD
+Change: CHG-2026-081
+System: OB/GYN EHR
+Request: Remove clinical notes read permission from Unit Coordinator role
+Requested: 2026-10-08
+Requested by: Clinical Applications Team
+Clinical approval: Pending
+Implementation: Not completed as of 2026-10-21
+Risk note: Overprivileged access persists until role corrected.
